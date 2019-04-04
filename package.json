@@ -1,0 +1,31 @@
+{
+  "name": "node-rest-api-skeleton",
+  "main": "server.js",
+  "engines": {
+    "node": ">=8.11 <9"
+  },
+  "scripts": {
+    "local": "nodemon  -x \"npm start\"",
+    "start": "node server.js",
+    "setup": "async-node setup.js"
+  },
+  "dependencies": {
+    "blob": "0.0.4",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "create-react-app": "^1.5.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.7",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.9",
+    "password-hash": "^1.2.2",
+    "validate-model": "0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
