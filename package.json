@@ -1,5 +1,5 @@
 {
-  "name": "node-rest-api-skeleton",
+  "name": "gen-server",
   "main": "server.js",
   "engines": {
     "node": ">=8.11 <9"
